@@ -1,0 +1,210 @@
+
+/************************************** Pagina Reservaciones **************************************/
+
+/************* Formulario Reserva 1 *************/
+
+.reserva {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondo-reservas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formreservas1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputcontenedor__reserva {
+    padding-left: 50px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.titlereserva {
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    padding-left: 50px;
+}
+
+.label__reserva {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+
+    input {
+        background-color: #073763;
+        color: #fff;
+        width: 120px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+    }
+}
+
+.submitBtn {
+    background-color: #073763;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30%;
+
+    &:hover {
+        background-color: tomato;
+        color: #fff;
+    }
+}
+
+.input__reserva1 {
+    padding: 5px;
+    width: 50%;
+    margin-top: 10px;
+    background: transparent;
+    color: #fff;
+}
+
+.select__reserva {
+    background-color: #073763;
+    color: #fff;
+    padding-left: 2%;
+    border: none;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+
+    &:hover {
+        background-color: tomato;
+        color: #fff;
+    }
+}
+
+.platoreserva {
+    width: 100%;
+    height: 100%;
+    transition: all ease 3s;
+    transform: scale(1.0);
+}
+
+.imagereserva1 {
+    width: 400px;
+    height: 400px;
+    margin-right: 20%; 
+    margin-top: 5px;     
+    overflow: hidden;
+    background-color: red;
+
+    &:hover {
+        .platoreserva {
+            transform: scale(1.2);
+        }
+    }
+}
+
+/************* Formulario Reserva 2 *************/
+
+.reserva2 {
+    background-color: #ffe599;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exclusivo {
+    text-align: center;     
+
+    h1 {
+        color: #073763;
+        font-family: 'Pacifico', cursive;
+    }
+
+    p {
+        color: #073763;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+.formreservas2 {
+    background-color: #A89D8A;
+    width: 80%;
+    display: grid;    
+    align-items: center;
+    margin: 30px;
+    padding-left: 30px;
+    
+}
+
+.label__reserva2 {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;  
+    
+    input {
+        background-color: #343434;
+        width: 120px;
+        height: 40px;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+    }
+}
+
+.input__reserva2 {
+    padding: 5px;
+    margin: 10px;
+    width: 50%;
+    margin-top: 10px;
+    background: #fff;
+    color: #343434;
+}
+
+.select__reserva2 {
+    background-color: #343434;
+    color: #fff;
+    padding-left: 2%;
+    margin: 2%;
+    border: none;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+
+    &:hover {
+        background-color: #fff;
+        color: #343434;
+    }
+}
+
+.submitBtn2 {
+    background-color: #343434;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-bottom: 10px;
+
+    &:hover {
+        background-color: #fff;
+        color: #343434;
+    }
+}
+
+
+
+
+
+
+
+

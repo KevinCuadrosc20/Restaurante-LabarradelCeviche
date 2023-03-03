@@ -1,0 +1,110 @@
+
+/************************************** Pagina Inicio **************************************/
+
+/************* Contenido del Main Inicio *************/
+
+/***************** Parallax *******************/
+
+.parallas, .primermain, .texto{margin: 0 auto;}
+
+.parallax{
+    background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:  cover;
+	height:30rem;
+	max-width: 100%;
+	position: relative;
+}
+
+.texto-interior {
+    color:#ff9900;
+	font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+	font-weight: bold;
+	left: 10%;
+	position: absolute;
+	text-align: center;
+	top:40%;
+	width: 80%;
+}
+
+.img-uno {
+    background-image: url(../imagenes/imagefondo.jpg);
+}
+
+.contenedor1inicio {
+    background-color: #ffe599;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+.textocarta {
+    color: #073763;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px;
+    text-align: center;
+    width: 500px;
+    display: grid;
+}
+
+.imgcarta {
+    width: 100%;
+    height: 100%;
+    transition: all ease 3s;
+    transform: scale(1.0);
+}
+
+.cartainicio {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+
+    &:hover {
+        .imgcarta {
+            transform: scale(1.2);
+        }
+    }
+}
+
+.conCarta {
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnCarta {
+    background-color: #073763;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+
+    &:hover {
+        background-color: tomato;
+        color: #fff;
+    }
+}
+
+.fondo2 {
+    background-color: #eeeeee;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.ancho {
+    width: 200px;
+}
+
+

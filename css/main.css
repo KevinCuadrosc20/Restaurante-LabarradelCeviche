@@ -1,0 +1,774 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box; }
+
+/** MENU BOOTSTRAP **/
+header nav {
+  background-color: #ffe599; }
+
+.nav-link {
+  font-family: 'Pacifico', cursive !important;
+  color: #073763 !important; }
+
+.navbar-toggler {
+  border: 0 !important; }
+  .navbar-toggler:focus {
+    box-shadow: none !important; }
+  .navbar-toggler-icon {
+    filter: invert(14%) sepia(23%) saturate(5243%) hue-rotate(189deg) brightness(100%) contrast(95%); }
+
+.navbar-collapse {
+  justify-content: flex-end; }
+
+.btn-dark a {
+  color: #fff;
+  text-decoration: none; }
+
+/****************** Encabezados para todas las Secciones ******************/
+.title-secciones {
+  width: 80%;
+  padding: 50px;
+  background-color: #A89D8A;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .title-secciones h1 {
+    font-family: 'Pacifico', cursive;
+    color: black; }
+
+/************* Para el Footer *************/
+footer {
+  width: 100%;
+  padding: 50px 0px;
+  background-image: url(../imagenes/background-footer.svg);
+  background-size: cover; }
+
+.container__footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px; }
+
+.box__footer {
+  display: flex;
+  flex-direction: column;
+  padding: 6px; }
+  .box__footer .logo img {
+    width: 80px; }
+  .box__footer .terms {
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #7a7a7a;
+    font-size: 10px; }
+  .box__footer h3 {
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #343434;
+    font-weight: 600; }
+  .box__footer a {
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #7a7a7a;
+    text-decoration: none;
+    font-weight: 200; }
+    .box__footer a:hover {
+      opacity: 0.8; }
+    .box__footer a .fab {
+      font-size: 20px; }
+
+.box__copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px; }
+  .box__copyright p {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #7a7a7a; }
+  .box__copyright hr {
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a; }
+
+/************************************** Pagina Inicio **************************************/
+/************* Contenido del Main Inicio *************/
+/***************** Parallax *******************/
+.parallas, .primermain, .texto {
+  margin: 0 auto; }
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  max-width: 100%;
+  position: relative; }
+
+.texto-interior {
+  color: #ff9900;
+  font-size: 2rem;
+  font-family: 'Pacifico', cursive;
+  font-weight: bold;
+  left: 10%;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  width: 80%; }
+
+.img-uno {
+  background-image: url(../imagenes/imagefondo.jpg); }
+
+.contenedor1inicio {
+  background-color: #ffe599;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  flex-wrap: wrap; }
+
+.textocarta {
+  color: #073763;
+  font-family: 'Poppins', sans-serif;
+  margin: 30px;
+  text-align: center;
+  width: 500px;
+  display: grid; }
+
+.imgcarta {
+  width: 100%;
+  height: 100%;
+  transition: all ease 3s;
+  transform: scale(1); }
+
+.cartainicio {
+  width: 400px;
+  height: 400px;
+  overflow: hidden; }
+  .cartainicio:hover .imgcarta {
+    transform: scale(1.2); }
+
+.conCarta {
+  padding-top: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.btnCarta {
+  background-color: #073763;
+  color: #fff;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center; }
+  .btnCarta:hover {
+    background-color: tomato;
+    color: #fff; }
+
+.fondo2 {
+  background-color: #eeeeee;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.ancho {
+  width: 200px; }
+
+/************************************** Pagina Carta **************************************/
+/************* Contenido del Main Carta *************/
+/** Tarjetas Restaurante **/
+h2 {
+  font-family: 'Pacifico', cursive;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+h4 {
+  font-family: 'Poppins', sans-serif; }
+
+p {
+  font-family: 'Poppins', sans-serif; }
+
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.column-2.carta {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1rem;
+  row-gap: 1rem; }
+
+.plato-carta {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px; }
+
+.img-plato-carta {
+  display: flex;
+  flex-basis: 25%;
+  justify-content: center; }
+  .img-plato-carta img {
+    max-width: 100px;
+    max-height: 90px; }
+
+.title-plato-carta {
+  border: 1px solid #e5e5e5;
+  border-bottom: none;
+  border-top: none;
+  flex-basis: 60%;
+  padding: 0 1rem; }
+
+.precio-plato-carta {
+  display: flex;
+  flex-basis: 15%;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold; }
+
+/************************************** Pagina Nosotros **************************************/
+/************* Contenido del Main Nosotros *************/
+.fondoimagen {
+  background-image: url(../imagenes/fondo-chefs-labarra.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto; }
+
+.sobreimagen {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: rgba(5, 5, 5, 0.774); }
+  .sobreimagen h3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width: 100%;
+    padding-top: 20px; }
+  .sobreimagen p {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 40px;
+    text-align: center; }
+
+.contenedor-chefs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 30px; }
+
+.chef {
+  margin: 20px;
+  width: 300px;
+  height: auto; }
+  .chef img {
+    width: 300px;
+    height: 300px; }
+
+/************************************** Pagina Contacto **************************************/
+/************* Formulario Contacto *************/
+form {
+  width: 500px;
+  height: auto;
+  margin: 20px; }
+
+.flexinput {
+  display: flex;
+  justify-content: center; }
+
+.input {
+  margin: 10px; }
+  .input input {
+    padding: 5px;
+    width: 100%;
+    margin-top: 10px;
+    background: transparent; }
+  .input label {
+    color: #fff;
+    font-family: 'Poppins', sans-serif; }
+    .input label span {
+      color: tomato;
+      font-size: 10px; }
+  .input textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    background: transparent; }
+
+.enviar {
+  width: 100%;
+  margin: 10px;
+  font-family: 'Poppins', sans-serif; }
+  .enviar:hover {
+    background-color: tomato;
+    color: #fff; }
+
+/************* Visitanos y mapa Contacto *************/
+.contenedorvisitanos {
+  background-color: #ffe599;
+  padding: 130px; }
+
+.visitanos {
+  color: #073763;
+  text-align: center; }
+
+.mapa iframe {
+  width: 100%; }
+
+/************************************** Pagina Reservaciones **************************************/
+/************* Formulario Reserva 1 *************/
+.reserva {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondo-reservas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.formreservas1 {
+  display: flex;
+  flex-direction: column; }
+
+.inputcontenedor__reserva {
+  padding-left: 50px;
+  padding-bottom: 20px;
+  align-items: center; }
+
+.titlereserva {
+  color: #fff;
+  font-family: 'Pacifico', cursive;
+  padding-left: 50px; }
+
+.label__reserva {
+  color: #fff;
+  font-family: 'Poppins', sans-serif; }
+  .label__reserva input {
+    background-color: #073763;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px; }
+
+.submitBtn {
+  background-color: #073763;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  margin-left: 30%; }
+  .submitBtn:hover {
+    background-color: tomato;
+    color: #fff; }
+
+.input__reserva1 {
+  padding: 5px;
+  width: 50%;
+  margin-top: 10px;
+  background: transparent;
+  color: #fff; }
+
+.select__reserva {
+  background-color: #073763;
+  color: #fff;
+  padding-left: 2%;
+  border: none;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px; }
+  .select__reserva:hover {
+    background-color: tomato;
+    color: #fff; }
+
+.platoreserva {
+  width: 100%;
+  height: 100%;
+  transition: all ease 3s;
+  transform: scale(1); }
+
+.imagereserva1 {
+  width: 400px;
+  height: 400px;
+  margin-right: 20%;
+  margin-top: 5px;
+  overflow: hidden;
+  background-color: red; }
+  .imagereserva1:hover .platoreserva {
+    transform: scale(1.2); }
+
+/************* Formulario Reserva 2 *************/
+.reserva2 {
+  background-color: #ffe599;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.exclusivo {
+  text-align: center; }
+  .exclusivo h1 {
+    color: #073763;
+    font-family: 'Pacifico', cursive; }
+  .exclusivo p {
+    color: #073763;
+    font-family: 'Poppins', sans-serif; }
+
+.formreservas2 {
+  background-color: #A89D8A;
+  width: 80%;
+  display: grid;
+  align-items: center;
+  margin: 30px;
+  padding-left: 30px; }
+
+.label__reserva2 {
+  color: #fff;
+  font-family: 'Poppins', sans-serif; }
+  .label__reserva2 input {
+    background-color: #343434;
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    border: none;
+    border-radius: 5px; }
+
+.input__reserva2 {
+  padding: 5px;
+  margin: 10px;
+  width: 50%;
+  margin-top: 10px;
+  background: #fff;
+  color: #343434; }
+
+.select__reserva2 {
+  background-color: #343434;
+  color: #fff;
+  padding-left: 2%;
+  margin: 2%;
+  border: none;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px; }
+  .select__reserva2:hover {
+    background-color: #fff;
+    color: #343434; }
+
+.submitBtn2 {
+  background-color: #343434;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  margin-left: 30%;
+  margin-bottom: 10px; }
+  .submitBtn2:hover {
+    background-color: #fff;
+    color: #343434; }
+
+/************************************** Pagina Galeria **************************************/
+.contentgaleria {
+  background-color: #ffe599;
+  text-align: center;
+  padding-top: 50px; }
+  .contentgaleria h2 {
+    color: #073763; }
+
+/** Para Seccion Galeria 1**/
+.secciongaleria {
+  background-color: #ffe599; }
+  .secciongaleria h2 {
+    color: #073763;
+    text-align: center;
+    padding-top: 50px; }
+
+.container {
+  padding-top: 60px;
+  padding-bottom: 20px; }
+
+.card {
+  margin-bottom: 30px; }
+  .card-body {
+    background-color: #A89D8A; }
+  .card img {
+    object-fit: cover;
+    object-position: center top;
+    width: 100%;
+    height: 80px; }
+    .card img.card-v {
+      width: 100%;
+      height: 250px; }
+
+/** Para Seccion Galeria 2**/
+.secciongaleria-dos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #ffe599; }
+
+.card2 {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  margin: 20px;
+  /** Card2 Hover **/ }
+  .card2 .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s; }
+  .card2 .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000; }
+    .card2 .front img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    .card2 .front h3 {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 45px;
+      line-height: 45px;
+      font-family: 'Pacifico', cursive;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.4);
+      text-align: center; }
+  .card2 .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: #032336;
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000; }
+    .card2 .back h3 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 30px;
+      margin-top: 20px;
+      letter-spacing: 2px; }
+    .card2 .back p {
+      font-family: 'Poppins', sans-serif;
+      letter-spacing: 1px; }
+    .card2 .back .link {
+      border-top: solid 1px #f3f3f3;
+      height: 50px;
+      line-height: 50px; }
+      .card2 .back .link a {
+        color: #f3f3f3;
+        font-family: 'Poppins', sans-serif; }
+  .card2:hover .front {
+    transform: perspective(600px) rotateY(180deg); }
+  .card2:hover .back {
+    transform: perspective(600px) rotateY(360deg); }
+
+/************************************** Pagina Delivery **************************************/
+.main-delivery {
+  background: #ffe599;
+  font-family: 'Poppins', sans-serif; }
+
+.menu-wrap-online {
+  max-width: 1100px;
+  width: 90%;
+  margin: auto; }
+  .menu-wrap-online h2 {
+    color: #073763;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 15px 0px; }
+  .menu-wrap-online p {
+    color: #073763;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 15px 0px; }
+    .menu-wrap-online p::after {
+      content: '';
+      width: 100%;
+      height: 1px;
+      background: #C7C7C7;
+      margin: 20px 0; }
+
+.pedidos-wrapper {
+  display: flex; }
+
+.categoria-lista {
+  display: flex;
+  flex-direction: column;
+  width: 18%; }
+  .categoria-lista .categoria_item {
+    display: block;
+    width: 90%;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    background: #A89D8A;
+    text-align: center;
+    text-decoration: none;
+    color: #fff; }
+  .categoria-lista .ct_item-active {
+    background: #073763; }
+
+/********* PLATILLOS *********/
+.platillos-lista {
+  width: 82%;
+  display: flex;
+  flex-wrap: wrap; }
+  .platillos-lista .platillo-item {
+    width: 22%;
+    margin-left: 3%;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-start;
+    transition: all .4s; }
+    .platillos-lista .platillo-item img {
+      width: 100%;
+      height: 140px; }
+    .platillos-lista .platillo-item a {
+      display: block;
+      width: 100%;
+      padding: 8px 0;
+      background: #073763;
+      color: #fff;
+      text-decoration: none;
+      text-align: center; }
+
+/****************** Para login y registrar ******************/
+.containerlogin {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondo-registro-login.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute; }
+
+.form-box {
+  width: 370px;
+  height: 455px;
+  position: relative;
+  margin: 6% auto;
+  background: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  overflow: hidden; }
+
+.button-box {
+  width: 240px;
+  margin: 30px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #e0e0e0;
+  border-radius: 30px; }
+
+.toggle-btn {
+  padding: 10px 22px;
+  cursor: pointer;
+  background: transparent;
+  border: 0px;
+  outline: none;
+  position: relative; }
+
+.redeslogin {
+  margin: 30px auto;
+  text-align: center; }
+  .redeslogin img {
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 9px #e0e0e0;
+    cursor: pointer;
+    border-radius: 50%; }
+
+.input-group {
+  top: 180px;
+  position: absolute;
+  width: 260px;
+  transition: 0.8s; }
+
+.input-field {
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 2px solid #004d40;
+  outline: none;
+  background: transparent; }
+
+.submit-btn {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, rgba(63, 81, 181, 0.7), rgba(255, 235, 59, 0.7));
+  border: 0px;
+  outline: none;
+  border-radius: 30px; }
+
+.check-box {
+  margin: 30px 10px 30px 0; }
+
+.spanlogin {
+  color: #757575;
+  font-size: 12px;
+  bottom: 64px;
+  position: absolute;
+  font-family: 'Poppins', sans-serif; }
+
+/**********
+Selector ID
+**********/
+#elegir {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 120px;
+  height: 100%;
+  background: linear-gradient(to right, rgba(63, 81, 181, 0.7), rgba(255, 235, 59, 0.7));
+  border-radius: 30px;
+  transition: 0.8s; }
+
+#login {
+  left: 50px; }
+
+#registrar {
+  left: 450px; }

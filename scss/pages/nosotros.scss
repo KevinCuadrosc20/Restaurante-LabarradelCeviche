@@ -1,0 +1,59 @@
+
+/************************************** Pagina Nosotros **************************************/
+
+/************* Contenido del Main Nosotros *************/
+
+.fondoimagen {
+    background-image: url(../imagenes/fondo-chefs-labarra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.sobreimagen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: rgba(5, 5, 5, 0.774);
+
+    h3 {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    p {
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+}
+
+.contenedor-chefs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+}
+
+.chef {
+    margin: 20px;
+    width: 300px;
+    height: auto;
+
+    img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+
+

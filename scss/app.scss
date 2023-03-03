@@ -1,0 +1,25 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+//Layout
+@import "./layout/header.scss";
+@import "./layout/encabezado-seccion.scss";
+@import "./layout/footer.scss";
+
+//Pages
+@import "./pages/home.scss";
+@import "./pages/carta.scss";
+@import "./pages/nosotros.scss";
+@import "./pages/contacto.scss";
+@import "./pages/reservacion.scss";
+@import "./pages/galeria.scss";
+@import "./pages/delivery.scss";
+@import "./pages/loginvista.scss";
+
+

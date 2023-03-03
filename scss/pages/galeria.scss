@@ -1,0 +1,147 @@
+
+/************************************** Pagina Galeria **************************************/
+.contentgaleria {
+    background-color: #ffe599;
+    text-align: center;
+    padding-top: 50px;
+
+    h2 {
+        color: #073763;
+    }
+}
+
+/** Para Seccion Galeria 1**/
+.secciongaleria {
+    background-color: #ffe599;
+
+    h2 {
+        color: #073763;
+        text-align: center;
+        padding-top: 50px;
+    }
+}
+
+.container {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 30px;
+
+    &-body {
+        background-color: #A89D8A;
+    }
+
+    img {
+        object-fit: cover;
+        object-position: center top;
+        width: 100%;
+        height: 80px;
+
+        &.card-v {
+            width: 100%;
+            height: 250px;
+        }
+    }
+}
+
+/** Para Seccion Galeria 2**/
+.secciongaleria-dos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ffe599;
+}
+
+.card2 {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+
+    .face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: .5s;
+    }
+
+    .front {
+        transform: perspective(600px) rotateY(0deg);
+        box-shadow: 0 5px 10px #000;
+
+        img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        h3 {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 45px;
+            line-height: 45px;
+            font-family: 'Pacifico', cursive;
+            color: #fff;
+            background-color: rgba(0,0,0,.4);
+            text-align: center;
+        }
+    }
+
+    .back {
+        transform: perspective(600px) rotateY(180deg);
+        background: rgb(3, 35, 54);
+        padding: 15px;
+        color: #f3f3f3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        box-shadow: 0 5px 10px #000;
+
+        h3 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 30px;
+            margin-top: 20px;
+            letter-spacing: 2px;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            letter-spacing: 1px;
+        }
+
+        .link {
+            border-top: solid 1px #f3f3f3;
+            height: 50px;
+            line-height: 50px;
+
+            a {
+                color: #f3f3f3;
+                font-family: 'Poppins', sans-serif;
+            }
+        }
+    }
+
+    /** Card2 Hover **/
+    &:hover {
+        .front {
+            transform: perspective(600px) rotateY(180deg);
+        }
+
+        .back {
+            transform: perspective(600px) rotateY(360deg);
+        }
+    }
+}
+
+
+
