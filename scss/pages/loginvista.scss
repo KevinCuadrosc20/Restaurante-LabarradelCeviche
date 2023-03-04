@@ -19,6 +19,11 @@
     padding: 5px;
     border-radius: 10px;
     overflow: hidden;
+
+    @include mobile {
+        width: 360px;
+        margin-top: 35%;
+    }
 }
 
 .button-box {
@@ -56,6 +61,10 @@
     position: absolute;
     width: 260px;
     transition: 0.8s;
+
+    @include mobile {
+        width: 240px;
+    }
 }
 
 .input-field {

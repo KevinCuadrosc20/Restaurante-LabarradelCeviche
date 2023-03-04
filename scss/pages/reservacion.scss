@@ -12,17 +12,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 .formreservas1 {
     display: flex;
     flex-direction: column;
+
+    @include mobile {
+        justify-content: space-around;
+    }
 }
 
 .inputcontenedor__reserva {
     padding-left: 50px;
     padding-bottom: 20px;
     align-items: center;
+
+    @include mobile {
+        padding: 20px;
+    }
 }
 
 .titlereserva {
@@ -69,6 +83,14 @@
     margin-top: 10px;
     background: transparent;
     color: $eighth-color;
+
+    @include mobile {
+        padding: 5px;
+        width: 100%;
+        margin: 10px;
+        background: transparent;
+        color: $eighth-color;
+    }
 }
 
 .select__reserva {
@@ -101,6 +123,15 @@
     overflow: hidden;
     background-color: $color-doce;
 
+    @include mobile {
+        width: 250px;
+        height: 250px;
+        margin-right: 29%;
+        margin-left: 28%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
     &:hover {
         .platoreserva {
             transform: scale(1.2);
@@ -117,6 +148,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 .exclusivo {
@@ -125,6 +162,10 @@
     h1 {
         color: $secondary-color;
         font-family: 'Pacifico', cursive;
+
+        @include mobile {
+            padding-top: 30px;
+        }
     }
 
     p {
@@ -140,6 +181,11 @@
     align-items: center;
     margin: 30px;
     padding-left: 30px;
+
+    @include mobile {
+        margin: 40px;
+        padding: 40px;
+    }
     
 }
 
@@ -164,6 +210,15 @@
     margin-top: 10px;
     background: $eighth-color;
     color: $sixth-color;
+
+    @include mobile {
+        padding: 5px;
+        margin: 10px;
+        width: 100%;
+        margin-top: 10px;
+        background: $eighth-color;
+        color: $sixth-color;
+    }
 }
 
 .select__reserva2 {

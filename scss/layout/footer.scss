@@ -14,12 +14,27 @@ footer {
     max-width: 1200px;
     margin: auto;
     margin-top: 100px;
+
+    @include mobile {
+        display: flex;
+        justify-content: space-around;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 80px;
+    }
 }
 
 .box__footer {
     display: flex;
     flex-direction: column;
     padding: 6px;
+
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 50px;
+    }
 
     .logo {
         img {

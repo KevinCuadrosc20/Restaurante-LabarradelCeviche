@@ -3,16 +3,34 @@
 
 /************* Formulario Contacto *************/
 
+.sobreimagen {
+    @include mobile {
+        max-width: 100%;
+    }
+}
+
 form {
    
     width: 500px;
     height: auto;
     margin: 20px;
+
+    @include mobile {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
 }
 
 .flexinput {
     display: flex;
     justify-content: center;
+
+    @include mobile {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .input {
@@ -23,6 +41,13 @@ form {
         width: 100%;
         margin-top: 10px;
         background: transparent;
+
+        @include mobile {
+            padding: 5px;
+            width: 100%;
+            margin-bottom: 15px;
+            background: transparent;
+        }
     }
 
     label {
@@ -48,6 +73,12 @@ form {
     width: 100%;
     margin: 10px;
     font-family: 'Poppins', sans-serif;
+
+    @include mobile {
+        width: 100%;
+        margin: 10px;
+        font-family: 'Poppins', sans-serif;
+    }
 
     &:hover {
         background-color: $nineth-color;

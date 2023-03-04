@@ -39,12 +39,23 @@
 
 .pedidos-wrapper {
     display: flex;
+
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .categoria-lista {
     display: flex;
     flex-direction: column;
     width: 18%;
+
+    @include mobile {
+        width: 100%;
+        align-items: center;
+    }
 
     .categoria_item {
         display: block;
@@ -68,6 +79,10 @@
     display: flex;
     flex-wrap: wrap;
 
+    @include mobile {
+        justify-content: center;
+    }
+
     .platillo-item {
         width: 22%;
         margin-left: 3%;
@@ -78,6 +93,12 @@
         align-items: center;
         align-self: flex-start;
         transition: all .4s;
+
+        @include mobile {
+            width: 62%;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
 
         img {
             width: 100%;

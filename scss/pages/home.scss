@@ -27,6 +27,14 @@
 	text-align: center;
 	top:40%;
 	width: 80%;
+
+    @include mobile {
+        font-size: 1.75rem;
+        left: 10px;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+    }
 }
 
 .img-uno {
@@ -58,6 +66,13 @@
     height: 100%;
     transition: all ease 3s;
     transform: scale(1.0);
+
+    @include mobile {
+        width: 100%;
+        height: 100%;
+        transition: all ease 3s;
+        transform: scale(1.0);
+    }
 }
 
 .cartainicio {
@@ -65,9 +80,18 @@
     height: 400px;
     overflow: hidden;
 
+    @include mobile {
+        width: 200px;
+        height: 180px;
+    }
+
     &:hover {
         .imgcarta {
             transform: scale(1.2);
+
+            @include mobile {
+                transform: scale(1.2);
+            }
         }
     }
 }
@@ -91,6 +115,11 @@
     text-decoration: none;
     align-items: center;
 
+    @include mobile {
+        width: 140px;
+        height: 40px;
+    }
+
     &:hover {
         background-color: $nineth-color;
         color: $eighth-color;
@@ -101,10 +130,22 @@
     background-color: $tenth-color;
     padding-top: 30px;
     padding-bottom: 30px;
+
+    @include mobile {
+        background-color: $tenth-color;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
 
 .ancho {
     width: 200px;
+
+    @include mobile {
+        width: 220px;
+    }
 }
 
 
