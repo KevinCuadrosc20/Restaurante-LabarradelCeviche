@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+//General
+@import "./general/typography.scss";
+@import "./general/colors.scss";
+
 //Layout
 @import "./layout/header.scss";
 @import "./layout/encabezado-seccion.scss";
@@ -22,7 +26,5 @@
 @import "./pages/delivery.scss";
 @import "./pages/loginvista.scss";
 
-//General
-@import "./general/typography.scss";
 
 

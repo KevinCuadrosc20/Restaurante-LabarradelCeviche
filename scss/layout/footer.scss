@@ -32,21 +32,21 @@ footer {
         margin-top: 20px;
         font-weight: 500;
         font-family: 'Poppins', sans-serif;
-        color: #7a7a7a;
+        color: $fifth-color;
         font-size: 10px;
     }
 
     h3 {
         margin-bottom: 30px;
         font-family: 'Poppins', sans-serif;
-        color: #343434;
+        color: $sixth-color;
         font-weight: 600;
     }
 
     a {
         margin-top: 10px;
         font-family: 'Poppins', sans-serif;
-        color: #7a7a7a;
+        color: $fifth-color;
         text-decoration: none;
         font-weight: 200;
 
@@ -69,13 +69,13 @@ footer {
     p {
         margin-top: 20px;
         font-family: 'Poppins', sans-serif;
-        color: #7a7a7a;
+        color: $fifth-color;
     }
 
     hr {
         border: none;
         height: 1px;
-        background-color: #7a7a7a;
+        background-color: $fifth-color;
     }
 }
 

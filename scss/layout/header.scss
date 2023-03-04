@@ -2,13 +2,13 @@
 /** MENU BOOTSTRAP **/
 header {
     nav {
-        background-color: #ffe599;
+        background-color: $primary-color;
     }
 }
 
 .nav-link {
     font-family: 'Pacifico', cursive !important;
-    color: #073763 !important;
+    color: $secondary-color !important;
 }
 
 .navbar-toggler {
@@ -30,7 +30,7 @@ header {
 
 .btn-dark {
     a {
-        color: #fff;
+        color: $eighth-color;
         text-decoration: none;
     }
 }

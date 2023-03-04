@@ -1,7 +1,7 @@
 
 /************************************** Pagina Delivery **************************************/
 .main-delivery {
-    background: #ffe599;
+    background: $primary-color;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -11,7 +11,7 @@
     margin: auto;
 
     h2 {
-        color: #073763;
+        color: $secondary-color;
         font-weight: 600;
         display: flex;
         flex-direction: column;
@@ -20,7 +20,7 @@
     }
 
     p {
-        color: #073763;
+        color: $secondary-color;
         font-weight: 300;
         display: flex;
         flex-direction: column;
@@ -31,7 +31,7 @@
             content: '';
             width: 100%;
             height: 1px;
-            background: #C7C7C7;
+            background: $seventh-color;
             margin: 20px 0;
         }
     }
@@ -51,14 +51,14 @@
         width: 90%;
         padding: 15px 0;
         margin-bottom: 20px;
-        background: #A89D8A;
+        background: $third-color;
         text-align: center;
         text-decoration: none;
-        color: #fff;
+        color: $eighth-color;
     }
 
     .ct_item-active {
-        background: #073763;
+        background: $secondary-color;
     }
 }
 
@@ -72,7 +72,7 @@
         width: 22%;
         margin-left: 3%;
         margin-bottom: 25px;
-        box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
+        box-shadow: 0px 0px 6px 0px $color-rgba4;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -88,8 +88,8 @@
             display: block;
             width: 100%;
             padding: 8px 0;
-            background: #073763;
-            color: #fff;
+            background: $secondary-color;
+            color: $eighth-color;
             text-decoration: none;
             text-align: center;
         }

@@ -18,7 +18,7 @@
 }
 
 .texto-interior {
-    color:#ff9900;
+    color: $fourth-color;
 	font-size: 2rem;
     font-family: 'Pacifico', cursive;
 	font-weight: bold;
@@ -34,7 +34,7 @@
 }
 
 .contenedor1inicio {
-    background-color: #ffe599;
+    background-color: $primary-color;
     width: 100%;
     margin: auto;
     display: flex;
@@ -45,7 +45,7 @@
 }
 
 .textocarta {
-    color: #073763;
+    color: $secondary-color;
     font-family: 'Poppins', sans-serif;
     margin: 30px;
     text-align: center;
@@ -82,8 +82,8 @@
 }
 
 .btnCarta {
-    background-color: #073763;
-    color: #fff;
+    background-color: $secondary-color;
+    color: $eighth-color;
     width: 150px;
     height: 40px;
     display: flex;
@@ -92,13 +92,13 @@
     align-items: center;
 
     &:hover {
-        background-color: tomato;
-        color: #fff;
+        background-color: $nineth-color;
+        color: $eighth-color;
     }
 }
 
 .fondo2 {
-    background-color: #eeeeee;
+    background-color: $tenth-color;
     padding-top: 30px;
     padding-bottom: 30px;
 }

@@ -17,18 +17,18 @@
     justify-content: center;
     width: 100%;
     height: auto;
-    background-color: rgba(5, 5, 5, 0.774);
+    background-color: $color-rgba1;
 
     h3 {
         text-align: center;
         font-family: 'Poppins', sans-serif;
-        color: white;
+        color: $eighth-color;
         width: 100%;
         padding-top: 20px;
     }
 
     p {
-        color: #fff;
+        color: $eighth-color;
         font-family: 'Poppins', sans-serif;
         padding-bottom: 40px;
         text-align: center;

@@ -34,7 +34,7 @@ p {
 .plato-carta {
     display: flex;
     align-items: center;
-    border: 1px solid #e5e5e5;
+    border: 1px solid $eleventh-color;
     border-radius: 6px;
 }
 
@@ -50,7 +50,7 @@ p {
 }
 
 .title-plato-carta {
-    border: 1px solid #e5e5e5;
+    border: 1px solid $eleventh-color;
     border-bottom: none;
     border-top: none;
     flex-basis: 60%;

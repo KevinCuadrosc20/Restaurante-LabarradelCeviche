@@ -4,7 +4,7 @@
 .containerlogin {
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondo-registro-login.jpg);
+    background-image: linear-gradient($color-rgba2, $color-rgba2), url(../imagenes/fondo-registro-login.jpg);
     background-position: center;
     background-size: cover;
     position: absolute;    
@@ -15,7 +15,7 @@
     height: 455px;
     position: relative;
     margin: 6% auto;
-    background: #fff;
+    background: $eighth-color;
     padding: 5px;
     border-radius: 10px;
     overflow: hidden;
@@ -25,7 +25,7 @@
     width: 240px;
     margin: 30px auto;
     position: relative;
-    box-shadow: 0 0 20px 9px #e0e0e0;
+    box-shadow: 0 0 20px 9px $eleventh-color;
     border-radius: 30px;
 }
 
@@ -45,7 +45,7 @@
     img {
         width: 30px;
         margin: 0 12px;
-        box-shadow: 0 0 20px 9px #e0e0e0;
+        box-shadow: 0 0 20px 9px $eleventh-color;
         cursor: pointer;
         border-radius: 50%;
     }
@@ -65,7 +65,7 @@
     border-left: 0;
     border-top: 0;
     border-right: 0;
-    border-bottom: 2px solid #004d40;
+    border-bottom: 2px solid $color-catorce;
     outline: none;
     background: transparent;
 }
@@ -76,7 +76,7 @@
     cursor: pointer;
     display: block;
     margin: auto;
-    background: linear-gradient( to right,rgba(63, 81, 181, 0.7), rgba(255, 235, 59, 0.7));
+    background: linear-gradient( to right,$color-rgba5, $color-rgba6);
     border: 0px;
     outline: none;
     border-radius: 30px;
@@ -88,7 +88,7 @@
 }
 
 .spanlogin {
-    color: #757575;
+    color: $fifth-color;
     font-size: 12px;
     bottom: 64px;
     position: absolute;
@@ -105,7 +105,7 @@ Selector ID
     position: absolute;
     width: 120px;
     height: 100%;
-    background: linear-gradient( to right,rgba(63, 81, 181, 0.7), rgba(255, 235, 59, 0.7));
+    background: linear-gradient( to right,$color-rgba5, $color-rgba6);
     border-radius: 30px;
     transition: 0.8s;
 }
