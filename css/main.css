@@ -145,18 +145,18 @@ footer {
   font-size: 2rem;
   font-family: 'Pacifico', cursive;
   font-weight: bold;
-  left: 120px;
+  left: 10%;
   position: absolute;
   text-align: center;
-  top: 150px;
+  top: 40%;
   width: 80%; }
   @media only screen and (max-width: 576px) {
     .texto-interior {
       font-size: 1.75rem;
-      left: 120px;
+      left: 10%;
       position: absolute;
       text-align: center;
-      top: 150px; } }
+      top: 60%; } }
 
 .img-uno {
   background-image: url(../imagenes/imagefondo.jpg); }
