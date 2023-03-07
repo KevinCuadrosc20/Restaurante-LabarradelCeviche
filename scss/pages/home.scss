@@ -22,18 +22,18 @@
 	font-size: 2rem;
     font-family: 'Pacifico', cursive;
 	font-weight: bold;
-	margin-left: 10%;
+	left: 120px;
 	position: absolute;
 	text-align: center;
-	margin-top: 40%;
+	top: 150px;
 	width: 80%;
 
     @include mobile {
         font-size: 1.75rem;
-        margin-left: 10%;
+        left: 120px;
         position: absolute;      
         text-align: center;
-        margin-top: 50%;
+        top: 150px;
     }
 }
 
