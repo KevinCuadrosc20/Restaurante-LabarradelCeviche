@@ -96,6 +96,10 @@ form {
 .visitanos {
     color: $secondary-color;
     text-align: center;
+
+    @include mobile {
+        text-align: center;
+    }
 }
 
 .mapa {

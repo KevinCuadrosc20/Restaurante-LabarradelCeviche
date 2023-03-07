@@ -443,6 +443,9 @@ form {
 .visitanos {
   color: #073763;
   text-align: center; }
+  @media only screen and (max-width: 576px) {
+    .visitanos {
+      text-align: center; } }
 
 .mapa iframe {
   width: 100%; }
