@@ -254,6 +254,10 @@
         background-color: $eighth-color;
         color: $sixth-color;
     }
+
+    @include mobile {
+        margin-left: 20%;
+    }
 }
 
 

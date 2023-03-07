@@ -145,18 +145,18 @@ footer {
   font-size: 2rem;
   font-family: 'Pacifico', cursive;
   font-weight: bold;
-  left: 10%;
+  margin-left: 10%;
   position: absolute;
   text-align: center;
-  top: 40%;
+  margin-top: 40%;
   width: 80%; }
   @media only screen and (max-width: 576px) {
     .texto-interior {
       font-size: 1.75rem;
-      left: 10%;
+      margin-left: 10%;
       position: absolute;
       text-align: center;
-      top: 50%; } }
+      margin-top: 50%; } }
 
 .img-uno {
   background-image: url(../imagenes/imagefondo.jpg); }
@@ -656,6 +656,9 @@ form {
   .submitBtn2:hover {
     background-color: #fff;
     color: #343434; }
+  @media only screen and (max-width: 576px) {
+    .submitBtn2 {
+      margin-left: 20%; } }
 
 /************************************** Pagina Galeria **************************************/
 .contentgaleria {
