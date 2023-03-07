@@ -95,10 +95,10 @@ form {
 
 .visitanos {
     color: $secondary-color;
-    justify-content: center;
+    text-align: center;
 
     @include mobile {
-        justify-content: center;
+        text-align: center;
     }
 }
 

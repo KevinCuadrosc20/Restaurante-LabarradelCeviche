@@ -442,10 +442,10 @@ form {
 
 .visitanos {
   color: #073763;
-  justify-content: center; }
+  text-align: center; }
   @media only screen and (max-width: 576px) {
     .visitanos {
-      justify-content: center; } }
+      text-align: center; } }
 
 .mapa iframe {
   width: 100%; }
