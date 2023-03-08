@@ -442,10 +442,7 @@ form {
 
 .visitanos {
   color: #073763;
-  margin: 30px;
-  text-align: center;
-  width: 500px;
-  display: grid; }
+  text-align: center; }
 
 .mapa iframe {
   width: 100%; }
