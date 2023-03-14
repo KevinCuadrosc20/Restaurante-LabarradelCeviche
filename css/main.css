@@ -934,6 +934,32 @@ form {
   position: absolute;
   font-family: 'Poppins', sans-serif; }
 
+.regresa-boton span {
+  transition: .4s ease-in-out all;
+  position: absolute;
+  left: 40%; }
+
+.regresa-boton .iconobtn {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  left: -40px;
+  transition: .3s ease-in-out all; }
+
+.regresa-boton:hover {
+  background: #2f9b05; }
+  .regresa-boton:hover span {
+    left: 20px; }
+  .regresa-boton:hover .iconobtn {
+    left: calc(100% - 50px);
+    opacity: 0; }
+
+.regresa-boton svg {
+  color: #fff;
+  width: 35px;
+  height: 35px; }
+
 /**********
 Selector ID
 **********/

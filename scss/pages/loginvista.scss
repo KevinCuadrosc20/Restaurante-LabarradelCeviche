@@ -104,6 +104,45 @@
     font-family: 'Poppins', sans-serif;;
 }
 
+.regresa-boton {
+    span {
+        transition: .4s ease-in-out all;
+        position: absolute;
+        left: 40%;
+    }
+
+    .iconobtn {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        z-index: 2;
+        left: -40px;
+        transition: .3s ease-in-out all;
+    }
+
+    &:hover {
+
+        background: #2f9b05;
+
+        span {
+            left: 20px;
+        }
+
+        .iconobtn {
+            left: calc(100% - 50px);
+            opacity: 0;
+
+        }
+
+    }
+
+    svg {
+        color: $eighth-color;
+        width: 35px;
+        height: 35px;
+    }
+}
+
 /**********
 Selector ID
 **********/
