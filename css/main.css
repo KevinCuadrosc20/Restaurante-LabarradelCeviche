@@ -868,6 +868,9 @@ form {
       width: 360px;
       margin-top: 35%; } }
 
+.height-form {
+  height: 80%; }
+
 .button-box {
   width: 240px;
   margin: 30px auto;
@@ -897,7 +900,8 @@ form {
   top: 180px;
   position: absolute;
   width: 260px;
-  transition: 0.8s; }
+  transition: 0.8s;
+  margin-top: -35px; }
   @media only screen and (max-width: 576px) {
     .input-group {
       width: 240px; } }
@@ -933,6 +937,14 @@ form {
   bottom: 64px;
   position: absolute;
   font-family: 'Poppins', sans-serif; }
+
+.volverlogin {
+  width: 100%;
+  margin-top: 25px;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  text-align: center;
+  color: #343434; }
 
 /**********
 Selector ID
