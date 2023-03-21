@@ -9,6 +9,18 @@
     }
 }
 
+.titlecontact {
+    font-family: $title-typography;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    color: $eighth-color;
+
+    @include mobile {
+        text-align: center;
+    }
+}
+
 form {
    
     width: 500px;

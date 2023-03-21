@@ -368,6 +368,16 @@ p {
   .sobreimagen {
     max-width: 100%; } }
 
+.titlecontact {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  color: #fff; }
+  @media only screen and (max-width: 576px) {
+    .titlecontact {
+      text-align: center; } }
+
 form {
   width: 500px;
   height: auto;
@@ -576,6 +586,9 @@ form {
   .exclusivo p {
     color: #073763;
     font-family: 'Poppins', sans-serif; }
+
+.title-exclusivo {
+  color: #073763; }
 
 .formreservas2 {
   background-color: #A89D8A;
