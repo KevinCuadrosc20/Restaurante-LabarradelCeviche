@@ -19,9 +19,9 @@
     height: auto;
     background-color: $color-rgba1;
 
-    h3 {
+    h2 {
         text-align: center;
-        font-family: 'Poppins', sans-serif;
+        font-family: $parapgraph-typography;
         color: $eighth-color;
         width: 100%;
         padding-top: 20px;
@@ -29,7 +29,7 @@
 
     p {
         color: $eighth-color;
-        font-family: 'Poppins', sans-serif;
+        font-family: $parapgraph-typography;
         padding-bottom: 40px;
         text-align: center;
     }
